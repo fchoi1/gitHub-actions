@@ -12,5 +12,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "Enter-Heroku-App-Name"
-          heroku_email: "YOUR EMAIL HERE"
+          heroku_app_name: "fabio-github-actions"
+          heroku_email: "fwchoi@edu.uwaterloo.ca
