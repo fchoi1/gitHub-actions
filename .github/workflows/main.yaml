@@ -1,8 +1,7 @@
 name: Deploy
 on:
-  push: 
-    branches:
-      -main
+  push:
+    branches: -main
 
 jobs:
   build:
@@ -13,4 +12,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fabio-github-actions"
-          heroku_email: "fwchoi@edu.uwaterloo.ca
+          heroku_email: "fwchoi@edu.uwaterloo.ca"
